@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: hsla(145, 83%, 74%, 1);
+
+  background: linear-gradient(90deg, rgb(199, 255, 222) 0%, hsla(204, 77%, 76%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, rgb(199, 210, 204) 0%, hsla(204, 77%, 76%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, rgb(48, 235, 126) 0%, rgb(178, 220, 248) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#87F4B5", endColorstr="#93CBF1", GradientType=1);
+  /* Your gradient code */
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  /* Adjust the width as needed */
+  height: auto;
+}
+
+.content {
+  /* Add styling for your content */
+}
