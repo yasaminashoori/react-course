@@ -52,23 +52,23 @@
   height: 100vh;
   background: hsla(145, 83%, 74%, 1);
 
-  background: linear-gradient(90deg, rgb(199, 255, 222) 0%, hsla(204, 77%, 76%, 1) 100%);
+  background: linear-gradient(90deg, rgb(36, 214, 110) 0%, hsla(204, 77%, 76%, 1) 100%);
 
-  background: -moz-linear-gradient(90deg, rgb(199, 210, 204) 0%, hsla(204, 77%, 76%, 1) 100%);
+  background: -moz-linear-gradient(90deg, rgb(148, 160, 153) 0%, rgb(108, 184, 234) 100%);
 
-  background: -webkit-linear-gradient(90deg, rgb(48, 235, 126) 0%, rgb(178, 220, 248) 100%);
+  background: -webkit-linear-gradient(90deg, rgb(185, 203, 192) 0%, hsla(204, 77%, 76%, 1) 100%);
 
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#87F4B5", endColorstr="#93CBF1", GradientType=1);
   /* Your gradient code */
 }
 
 .logo {
-  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
 }
 
 .logo img {
   /* Adjust the width as needed */
-  height: auto;
 }
 
 .content {
